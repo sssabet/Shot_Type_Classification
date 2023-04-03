@@ -16,9 +16,19 @@ Models get an image or a frame of video as an input and classify it as one of th
 | Extreme close-up shot (ECS)  | Even a smaller parts of object, e.g., eyes    |
 
 
+<div align="center">
+    <img src="/examples/1.jpg" width="200px"</img> 
+</div>
 
+![CS](/examples/1.jpg?raw=true "Close-up shot (CS) Example")
 
-![Alt text](/examples/1.jpg?raw=true "Optional Title")
+![ecs](/examples/2.jpg?raw=true "Extreme close-up shot (ECS) Example")
+
+![FS](/examples/3.jpg?raw=true "Full shot (FS) Example")
+
+![LS](/examples/4.jpg?raw=true "Long shot (LS) Example")
+
+![MS](/examples/5.jpg?raw=true "Medium shot (MS) Example")
 
 
 
