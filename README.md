@@ -21,14 +21,15 @@ Models get an image or a frame of video as an input and classify it as one of th
   <table>
     <thead>
       <tr>
-        <td><img src="/examples/1.jpg" width="50%"></img> Close-up shot (CS) Example</td>
-        <td> <img src="/examples/2.jpg" width="50%"></img> Extreme close-up shot (ECS) Example </td>
-        <td> <img src="/examples/3.jpg" width="50%"></img> Full shot (FS) Example </td>
+        <td><img src="/examples/1.jpg" width="50%"></img> <br />Close-up shot (CS) Example</td>
+        <td> <img src="/examples/2.jpg" width="50%"></img> <br />Extreme close-up shot (ECS) Example </td>
+        <td> <img src="/examples/3.jpg" width="50%"></img> <br />Full shot (FS) Example </td>
       </tr>
       
       <tr>
-        <td><img src="/examples/4.jpg" width="50%"></img> Long shot (LS) Example</td>
-        <td><img src="/examples/5.jpg" width="50%"></img> Medium shot (MS) Example </td>
+        <td><img src="/examples/4.jpg" width="50%"></img><br /> Long shot (LS) Example</td>
+        <td><img src="/examples/5.jpg" width="50%"></img><br /> Medium shot (MS) Example </td>
+        <td> </td>
       </tr>
     </thead>
   </table>
