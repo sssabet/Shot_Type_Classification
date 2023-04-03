@@ -16,6 +16,14 @@ Models get an image or a frame of video as an input and classify it as one of th
 | Extreme close-up shot (ECS)  | Even a smaller parts of object, e.g., eyes    |
 
 
+
+
+![Alt text](/examples/1.jpg?raw=true "Optional Title")
+
+
+
+
+
 **Dataset**
 
 Both models are traned over MovieShots dataset https://paperswithcode.com/dataset/movieshots
