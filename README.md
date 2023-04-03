@@ -4,8 +4,8 @@ There are two models available, one _PyTorch implementation_ with 0.90 accuracy 
 Please don't use it for the commersial purposes as the dataset doesn't allow you to do that.
 
 
-**Model Input/Output**
-
+`**Model Input/Output**
+`
 The trained models are in models folder. And you can test it using PyTorch_Model_Classifier.ipynb for PyTorch implementation and TF_Model_Classifier.ipynb for TensorFlow implementation.
 Both models get an image (or a frame of video) as an input and output the type of shots in one of these 5 categories:
 
@@ -41,12 +41,14 @@ Below are some examples of each classes
 
 
 **Requirments PyTorch Implementation**
+
 PyTorch 
 Pillow
 numpy
 torchvision
 
 **Requirments TensorFlow Implementation**
+
 tensorflow
 OpenCV
 numpy
