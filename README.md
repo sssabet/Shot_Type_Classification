@@ -1,11 +1,12 @@
 # Shot_Type_Classification
 
 There are two models available, one _PyTorch implementation_ with 0.90 accuracy trained over 50 epochs, and one _Tensorflow implementation_ with 0.89 accuracy trainned over 12 epochs. The accuracies are based on the testset which were separated from the training set.
+Please don't use it for the commersial purposes as the dataset doesn't allow you to do that.
 
 
 **Model Input/Output**
-
-Models get an image or a frame of video as an input and classify it as one of the following classes:
+The trained models are in models folder. And you can test it using PyTorch_Model_Classifier.ipynb for PyTorch implementation and TF_Model_Classifier.ipynb for TensorFlow implementation.
+Both models get an image (or a frame of video) as an input and output the type of shots in one of these 5 categories:
 
 | Class                        | Description                                   |
 |------------------------------|-----------------------------------------------|
@@ -15,7 +16,8 @@ Models get an image or a frame of video as an input and classify it as one of th
 | Close-up shot (CS)           | A relatively small object, e.g., face, hand.  |
 | Extreme close-up shot (ECS)  | Even a smaller parts of object, e.g., eyes    |
 
-****                       ****
+
+Below are some examples of each classes
 
 <div align="center">
   <table border="0" bgcolor="#000000">
@@ -38,6 +40,16 @@ Models get an image or a frame of video as an input and classify it as one of th
 
 **Dataset**
 
-Both models are traned over MovieShots dataset https://paperswithcode.com/dataset/movieshots
+Both models are traned over MovieShots dataset https://paperswithcode.com/dataset/movieshots 
+https://arxiv.org/abs/2008.03548
 
-Classfies each image or videoframe to five categories: 1) long shot (LS) is taken from a long distance, sometimes as far as a quarter of a mile away; 2) full shot (FS) barely includes the human body in full; 3) medium shot (MS) contains a figure from the knees or waist up; 4) close-up shot (CS) concentrates on a relatively small object, showing the face of the hand of a person; (5) extreme close-up shot (ECS) shows even smaller parts such as the image of an eye or a mouth.
+**Model Training**
+The codes for training the models are available under training folder.
+Steps for training the models again:
+1- Download the dataset
+2- Follow the steps in DataSet_CleanUp.ipynb
+3- Train the model using either PyTorch or Tensorflow implementation
+
+The pytorch code is taken from https://www.kaggle.com/code/oknashar/brain-tumor-detection-using-pytorch?scriptVersionId=90753009&cellId=15
+And Tensorflow implementation are taken from https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn
+
