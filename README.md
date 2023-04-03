@@ -6,7 +6,7 @@ Please don't use it for the commersial purposes as the dataset doesn't allow you
 
 **Model Input/Output**
 
-The trained models are in models folder. And you can test it using PyTorch_Model_Classifier.ipynb for PyTorch implementation and TF_Model_Classifier.ipynb for TensorFlow implementation.
+The trained models are in models folder. And you can test it using `PyTorch_Model_Classifier.ipynb` for PyTorch implementation and `TF_Model_Classifier.ipynb` for TensorFlow implementation.
 Both models get an image (or a frame of video) as an input and output the type of shots in one of these 5 categories:
 
 | Class                        | Description                                   |
@@ -66,8 +66,8 @@ https://arxiv.org/abs/2008.03548
 The codes for training the models are available under training folder.
 Steps for training the models again:
 1- Download the dataset
-2- Follow the steps in DataSet_CleanUp.ipynb
-3- Train the model using either PyTorch or Tensorflow implementation
+2- Follow the steps in `DataSet_CleanUp.ipynb`
+3- Train the model by using either PyTorch or Tensorflow implementation file
 
 The pytorch code is taken from https://www.kaggle.com/code/oknashar/brain-tumor-detection-using-pytorch?scriptVersionId=90753009&cellId=15
 And Tensorflow implementation are taken from https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn
