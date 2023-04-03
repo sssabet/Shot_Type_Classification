@@ -3,7 +3,8 @@
 There are two models available, one _PyTorch implementation_ with 0.90 accuracy trained over 50 epochs, and one _Tensorflow implementation_ with 0.89 accuracy trainned over 12 epochs. The accuracies are based on the testset which were separated from the training set.
 
 
-#Model Input/Output
+**Model Input/Output**
+
 Models get an image or a frame of video as an input and classify it as one of the following classes:
 
 | Class                        | Description                                   |
@@ -15,7 +16,7 @@ Models get an image or a frame of video as an input and classify it as one of th
 | Extreme close-up shot (ECS)  | Even a smaller parts of object, e.g., eyes    |
 
 
-#Dataset
+**Dataset**
 
 Both models are traned over MovieShots dataset https://paperswithcode.com/dataset/movieshots
 
