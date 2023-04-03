@@ -5,6 +5,7 @@ Please don't use it for the commersial purposes as the dataset doesn't allow you
 
 
 **Model Input/Output**
+
 The trained models are in models folder. And you can test it using PyTorch_Model_Classifier.ipynb for PyTorch implementation and TF_Model_Classifier.ipynb for TensorFlow implementation.
 Both models get an image (or a frame of video) as an input and output the type of shots in one of these 5 categories:
 
@@ -38,12 +39,28 @@ Below are some examples of each classes
 
 
 
+
+**Requirments PyTorch Implementation**
+PyTorch 
+Pillow
+numpy
+torchvision
+
+**Requirments TensorFlow Implementation**
+tensorflow
+OpenCV
+numpy
+
+
+
 **Dataset**
 
 Both models are traned over MovieShots dataset https://paperswithcode.com/dataset/movieshots 
 https://arxiv.org/abs/2008.03548
 
+
 **Model Training**
+
 The codes for training the models are available under training folder.
 Steps for training the models again:
 1- Download the dataset
