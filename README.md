@@ -69,6 +69,6 @@ Steps for training the models again:
 2- Follow the steps in `DataSet_CleanUp.ipynb`
 3- Train the model by using either PyTorch or Tensorflow implementation file
 
-The pytorch code is taken from https://www.kaggle.com/code/oknashar/brain-tumor-detection-using-pytorch?scriptVersionId=90753009&cellId=15
-And Tensorflow implementation are taken from https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn
+The pytorch implementation is based on the MRI tumor detection in https://www.kaggle.com/code/oknashar/brain-tumor-detection-using-pytorch?scriptVersionId=90753009&cellId=15
+And Tensorflow implementation is based on the MRI tumor detection in https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn
 
