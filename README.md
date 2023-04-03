@@ -18,18 +18,18 @@ Models get an image or a frame of video as an input and classify it as one of th
 ****                       ****
 
 <div align="center">
-  <table border="0">
+  <table border="0" bgcolor="#000000">
       <tr>
-        <td><img src="/examples/1.jpg" width="50%"></img> <br />Close-up shot (CS) Example</td>
-        <td> <img src="/examples/2.jpg" width="50%"></img> <br />Extreme close-up shot (ECS) Example </td>
-        <td> <img src="/examples/3.jpg" width="50%"></img> <br />Full shot (FS) Example </td>
+        <td valign="top" align="center"><img src="/examples/1.jpg" width="50%"></img> <br />Close-up shot (CS) Example</td>
+        <td valign="top" align="center"> <img src="/examples/2.jpg" width="50%"></img> <br />Extreme close-up shot (ECS) Example </td>
+        <td valign="top" align="center"> <img src="/examples/3.jpg" width="50%"></img> <br />Full shot (FS) Example </td>
       </tr>
     </table>
     
-  <table border="0">
+  <table border="0" bgcolor="#000000">
       <tr>
-        <td><img src="/examples/4.jpg" width="50%"></img><br /> Long shot (LS) Example</td>
-        <td><img src="/examples/5.jpg" width="50%"></img><br /> Medium shot (MS) Example </td>
+        <td valign="top" align="center"><img src="/examples/4.jpg" width="50%"></img><br /> Long shot (LS) Example</td>
+        <td valign="top" align="center"><img src="/examples/5.jpg" width="50%"></img><br /> Medium shot (MS) Example </td>
       </tr>
     </table>
 </div>
