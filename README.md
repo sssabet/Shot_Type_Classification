@@ -19,7 +19,6 @@ Models get an image or a frame of video as an input and classify it as one of th
 
 <div align="center">
   <table>
-    <thead>
       <tr>
         <td><img src="/examples/1.jpg" width="50%"></img> <br />Close-up shot (CS) Example</td>
         <td> <img src="/examples/2.jpg" width="50%"></img> <br />Extreme close-up shot (ECS) Example </td>
@@ -31,7 +30,6 @@ Models get an image or a frame of video as an input and classify it as one of th
         <td><img src="/examples/5.jpg" width="50%"></img><br /> Medium shot (MS) Example </td>
         <td> </td>
       </tr>
-    </thead>
   </table>
 </div>
 
