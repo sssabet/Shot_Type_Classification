@@ -15,31 +15,24 @@ Models get an image or a frame of video as an input and classify it as one of th
 | Close-up shot (CS)           | A relatively small object, e.g., face, hand.  |
 | Extreme close-up shot (ECS)  | Even a smaller parts of object, e.g., eyes    |
 
-**Close-up shot (CS) Example**                       **Extreme close-up shot (ECS) Example**
+****                       ****
 
 <div align="center">
-    <img src="/examples/1.jpg" width="50%"></img>     <img src="/examples/2.jpg" width="50%"></img> 
-
+  <table>
+    <thead>
+      <tr>
+        <td><img src="/examples/1.jpg" width="50%"></img> Close-up shot (CS) Example</td>
+        <td> <img src="/examples/2.jpg" width="50%"></img> Extreme close-up shot (ECS) Example </td>
+        <td> <img src="/examples/3.jpg" width="50%"></img> Full shot (FS) Example </td>
+      </tr>
+      
+      <tr>
+        <td><img src="/examples/4.jpg" width="50%"></img> Long shot (LS) Example</td>
+        <td><img src="/examples/5.jpg" width="50%"></img> Medium shot (MS) Example </td>
+      </tr>
+    </thead>
+  </table>
 </div>
-
-<div align="center">
-</div>
-
-**Full shot (FS) Example**
-<div align="center">
-    <img src="/examples/3.jpg" width="50%"></img> 
-</div>
-
-**Long shot (LS) Example**
-<div align="center">
-    <img src="/examples/4.jpg" width="50%"></img> 
-</div>
-
-**Medium shot (MS) Example**
-<div align="center">
-    <img src="/examples/5.jpg" width="50%"></img> 
-</div>
-
 
 
 
