@@ -64,7 +64,7 @@ https://arxiv.org/abs/2008.03548
 **Model Performance**
 The data was randomly splitted to 60% (training), 20%(eval) and 20% (test) and the reported data is based on the 20% test set.
 
-For PyTorch implementation the performance was as below:
+For PyTorch implementation the performance is as below:
 
 |     |precision|recall|f1-score|support|
 |-----|---------|------|--------|-------|
@@ -79,6 +79,18 @@ For PyTorch implementation the performance was as below:
 
 
 
+For TensorFlow mode the performance is as follow:
+
+|     |precision|recall|f1-score|support|
+|-----|---------|------|--------|-------|
+|CS       |0.82      |0.88      |0.85       |877|
+|ECS      |0.92      |0.84      |0.88       |846|
+|FS       |0.89      |0.91      |0.90       |793|
+|LS       |0.89      |0.96      |0.92       |738|
+|MS       |0.91      |0.85      |0.88       |924|
+|accuracy |          |          |0.88       |4178|
+|macro avg|0.89      |0.89       |0.89      |4178|
+|w. avg   |0.89      |0.88       |0.88      |4178|
 
 
 
