@@ -65,18 +65,17 @@ https://arxiv.org/abs/2008.03548
 The data was randomly splitted to 60% (training), 20%(eval) and 20% (test) and the reported data is based on the 20% test set.
 
 For PyTorch implementation the performance was as below:
+
 |     |precision|recall|f1-score|support|
-|------------------------------|-----------------------------------------------|
-
-          |CS       |0.90|      0.87|      0.88|       692|
-          |ECS      |0.89|      0.91|      0.90|       636|
-          |FS       |0.93|      0.90|      0.92|       623|
-          |LS       |0.91|      0.97|      0.94|       617|
-          |MS       |0.92|      0.90|      0.91|       776|
-
-    |accuracy      |     |     |    |      0.91|      3344|
-   |macro avg      |0.91|      0.91|      0.91|      3344|
-|weighted avg      |0.91|      0.91|      0.91|      3344|
+|-----|---------|------|--------|-------|
+|CS       |0.90|      0.87|      0.88|       692|
+|ECS      |0.89|      0.91|      0.90|       636|
+|FS       |0.93|      0.90|      0.92|       623|
+|LS       |0.91|      0.97|      0.94|       617|
+|MS       |0.92|      0.90|      0.91|       776|
+|accuracy |    |          |      0.91|      3344|
+|macro avg|0.91|      0.91|      0.91|      3344|
+|w. avg   |0.91|      0.91|      0.91|      3344|
 
 
 
